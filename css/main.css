@@ -1,6 +1,9 @@
 /*========================
 HEADER
 =========================*/
+body {
+    text-align: center;
+}
 
 header {
     display: inline-block;
@@ -58,3 +61,30 @@ header {
                 background:#3B28EA;
                 color: #fff;
             }
+
+/*========================
+Container-1
+=========================*/
+
+.container-1 {
+    display: inline-block;
+    width: 75%;
+    margin-top: 80px;
+}
+
+    .container-1 h1 {
+        font-size: 60px;
+        margin-bottom: 20px;
+    }
+
+    .container-1 p {
+        font-size: 28px;
+    }
+
+    .hero-img {
+        margin: 40px;
+    }
+
+    .clock  {
+
+    }
