@@ -1,0 +1,44 @@
+/*========================
+HEADER
+=========================*/
+
+header {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+    .main-nav {
+        display: inline-block;
+        width: 80%;
+        margin: 20px 0; 
+    }
+
+        .logo {
+            float: left;
+            padding: 5px;
+            margin: 0 10px;
+        }
+
+        .main-nav-right {
+            display: inline-block;
+            float: right;
+        }
+
+            .main-nav-right > a {
+                display: inline-block;
+                padding: 10px 20px;
+                color: #3B28EA;
+                font-size: 20px;
+                text-decoration: none;
+            }
+
+   
+
+    #features:hover {
+      border-bottom: 2px solid lightblue;
+    }
+
+    #support {
+    
+    }
