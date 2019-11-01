@@ -10,7 +10,7 @@ header {
 
     .main-nav {
         display: inline-block;
-        width: 80%;
+        width: 75%;
         margin: 20px 0; 
     }
 
@@ -27,18 +27,34 @@ header {
 
             .main-nav-right > a {
                 display: inline-block;
-                padding: 10px 20px;
                 color: #3B28EA;
                 font-size: 20px;
                 text-decoration: none;
             }
 
-   
+            .features::after {
+                content: '';
+                display: block;
+                width: 0;
+                border-bottom: 2px solid #3B28EA;
+                transition: all .5s;
+            }
 
-    #features:hover {
-      border-bottom: 2px solid lightblue;
-    }
+            .features:hover::after {
+                width: 100%;
+            }
 
-    #support {
-    
-    }
+            .features {
+                padding: 10px 20px;
+            }
+
+            .support {
+                border: 1px solid #3b28ea;
+                border-radius: 20px;
+                padding: 10px 30px;
+            }
+
+            .support:hover {
+                background:#3B28EA;
+                color: #fff;
+            }
