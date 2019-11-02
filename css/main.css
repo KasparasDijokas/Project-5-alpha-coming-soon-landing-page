@@ -194,3 +194,51 @@ Container-3
     .container-3 img {
         width: 50%;
     }
+
+/*========================
+Container-4
+=========================*/
+
+.container-4 {
+    display: inline-block;
+    width: 100%;
+    background-color: #3B28EA;
+    padding: 100px 0;
+}
+
+    .wraper4 {
+        display: inline-block;
+        width: 75%;
+    }
+
+    .wraper4-text {
+        display: inline-block;
+        width: 60%;
+        float: left;
+        color: #fff;
+        text-align: start;
+        margin-left: 36px;
+    }
+
+    .wraper4-text h2 {
+        font-size: 48px;
+        margin-bottom: 20px;
+    }
+
+    .wraper4-text h3 {
+        font-size: 32px;
+        font-weight: 200;
+    }
+
+    .wraper4 a {
+        display: inline-block;
+        text-decoration: none;
+        background-color: #fff;
+        padding: 16px 48px;
+        border-radius: 50px;
+        color: #3B28EA;
+        font-size: 20px;
+        float: left;
+        margin-top: 28px;
+        margin-left: 60px;
+    }
