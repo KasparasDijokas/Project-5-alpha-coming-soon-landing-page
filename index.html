@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/clock.css">
+    <script src="./js/clock.js"></script>
 </head>
 <body>
     <header>
@@ -25,10 +27,18 @@
             <p>Coming soon on android and ios</p>
             <img src="img/hero-img.svg" class="hero-img" alt="hero image">
         </div>
-        <div> 
-            <p>clock</p>
-            <form></form>
-        </div>
+       
+ <div class="timer">
+    <ul>
+        <li><span id="days"></span>days</li>
+        <li class="seperator">:</li>
+        <li><span id="hours"></span>Hours</li>
+        <li class="seperator">:</li>
+        <li><span id="minutes"></span>Minutes</li>
+        <li class="seperator">:</li>
+        <li><span id="seconds"></span>Seconds</li>
+    </ul>
+</div> 
     </div>
 
     <div class="container-2">
