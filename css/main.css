@@ -87,7 +87,7 @@ Container-1
 
 
 /*========================
-Container-1
+Container-2
 =========================*/
 
 .container-2 {
@@ -154,3 +154,43 @@ Container-1
     }
 
     
+/*========================
+Container-3
+=========================*/
+
+.container-3 {
+    display: inline-block;
+    width: 75%;
+    margin: 100px 0;
+}
+
+    .block {
+        display: inline-block;
+        width: 30%;
+        border: 1px solid #E4E4E4;
+        border-radius: 8px;
+        padding-bottom: 60px;
+    }
+
+    .middle {
+        margin: 0 16px;
+    }
+
+    .container-3 h2 {
+        font-size: 30px;
+        color: #3B28EA;
+        margin: 40px 20px 10px;
+    }
+
+    .container-3 p {
+        color: #A88D98;
+        text-align: center;
+        padding: 10px 20px;
+        margin: 20px;
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .container-3 img {
+        width: 50%;
+    }
