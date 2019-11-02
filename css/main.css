@@ -242,3 +242,78 @@ Container-4
         margin-top: 28px;
         margin-left: 60px;
     }
+
+/*========================
+Footer
+=========================*/
+
+footer {
+    display: inline-block;
+    width: 100%;
+}
+
+    .footer-wraper {
+        display: inline-block;
+        width: 75%;
+        margin-top: 60px;
+        padding-bottom: 60px;
+      
+    }
+
+    .footer-wraper img {
+        display: inline-block;
+        margin-bottom: 20px;
+        height: 34px;
+        width: 100%;
+    }
+
+    .footer-left-container {
+        display: inline-block;
+        width: 30%;
+        padding: 5px 10px;
+    }
+
+        .footer-left-container a {
+            color: #8996B3;
+            text-decoration: none;
+            padding:10px 10px;
+            font-size: 18px;
+            float: left;
+        }
+
+    .footer-middle-container {
+        display: inline-block;
+        width: 30%;
+        padding: 5px 10px;
+        margin: 0 10px;
+        color: #8996B3;
+        font-size: 18px;
+    }
+
+    .footer-middle-container p {
+        padding: 10px 0;
+    }
+
+    .footer-right-container {
+        display: inline-block;
+        width: 30%;
+        padding: 0 10px 5px;
+    }
+
+    .socials {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .socials a {
+        display: inline-block;
+        background-color: #3B28EA;
+        color: #fff;
+        width: 40px;
+        padding: 10px;
+        font-size: 20px;
+        line-height: 20px;
+        border-radius: 50px;
+        margin: 0 10px;
+        float: right;
+    }
