@@ -9,6 +9,10 @@ header {
     display: inline-block;
     width: 100%;
     text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: hsla(180, 100%, 100%, .9);
 }
 
     .main-nav {
@@ -195,6 +199,10 @@ Container-3
         width: 50%;
     }
 
+    .block:hover {
+        border: 1px solid blue;
+    }
+
 /*========================
 Container-4
 =========================*/
@@ -241,6 +249,10 @@ Container-4
         float: left;
         margin-top: 28px;
         margin-left: 60px;
+    }
+
+    .wraper4 a:hover {
+        opacity: 0.9;
     }
 
 /*========================
@@ -316,4 +328,8 @@ footer {
         border-radius: 50px;
         margin: 0 10px;
         float: right;
+    }
+
+    .footer-left-container a:hover {
+        color: #3B28EA;
     }

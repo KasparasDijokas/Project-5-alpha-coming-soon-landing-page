@@ -33,3 +33,7 @@
         right: 6px;
         top: 5px; /*jei pakeisiu font-size, pozicija crashins*/
     }
+
+    .container-1-form > a:hover {
+        opacity: 0.9;
+    }
