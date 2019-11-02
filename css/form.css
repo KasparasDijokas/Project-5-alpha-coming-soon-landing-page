@@ -1,0 +1,33 @@
+.container-1-form {
+    display: inline-block;
+    width: 60%;
+    position: relative;
+}
+
+    .container-1-form > input {
+        display: inline-block;
+        width: 100%;
+        background-color: #D8D4FB;
+        padding: 20px 0 20px 10px;
+        border-radius: 50px;
+        font-size: 20px;
+        line-height: 26px;
+        border: 0;
+    }
+
+    ::placeholder {
+        color:#3B28ED;
+        font-size: 20px;
+    }
+
+    .container-1-form > a {
+        text-decoration: none;
+        background-color: #3B28EA;
+        color: #fff;
+        font-size: 20px;
+        padding: 16px 40px;
+        border-radius: 50px;
+        position: absolute;
+        right: 6px;
+        top: 5px; /*jei pakeisiu font-size, pozicija crashins*/
+    }
